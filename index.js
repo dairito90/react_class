@@ -86,3 +86,25 @@ numbers.reduce({accumulator, current} => {
 //MVC
 // REACT is the V in MVC
 // REACT is all about UI i.e) View
+
+
+
+//build UI whit pure function | fucntion composition in REACT
+// f(d) = V
+
+//Pure functions
+// Pure functions always return the sme result given the same argument.
+// Pure function ejecution doesn't depend on the state of the application.
+// Pure functions don't modify the variables outside of their scope.
+
+var num = 0;
+function badFunction () {
+    //num =25;
+    return 25;
+};
+
+num = badFunction();
+
+
+PropTypes
+download from npm -prop-types
